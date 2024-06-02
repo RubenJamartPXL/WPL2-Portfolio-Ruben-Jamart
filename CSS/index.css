@@ -1,0 +1,721 @@
+* {
+
+}
+
+body {
+    background-color: #FFF8F0;
+    margin: 0;
+    font-family: Tahoma, serif;
+    color: #392F5A;
+    font-weight: initial;
+}
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#child{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 17px;
+    box-sizing: content-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+#begin {
+    background-color: #FF8811;
+    margin: 0;
+    width: 100%;
+    white-space: nowrap;
+    display: flex;
+    height: 1024px;
+}
+
+#scrolling {
+    display: flex;
+    font-size: 250px;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 80%;
+}
+
+#backtotop {
+    background-color: #392F5A;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    border-radius: 100%;
+    padding: 2%;
+    opacity: 90%;
+}
+
+#backtotop:hover {
+    opacity: 100%;
+}
+
+#welcome {
+    width: 80%;
+    margin-top: 0;
+    background-color: #9DD9D2;
+    height: 1080px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#welcome h1 {
+    font-size: 300px;
+    margin: 0;
+}
+#make,#websites, #puntjes {
+
+    font-size: 128px;
+    margin: 0;
+}
+
+#make {
+    float:left;
+}
+
+#websites {
+    padding-left: 30px;
+    color: #F4D06F;
+    float: left;
+    font-weight: bold;
+}
+
+#welcome h2 {
+    font-size: 200px;
+    margin: 0;
+}
+
+hr {
+    color: #F4D06F;
+    border-width: 7px;
+    border-style: solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about {
+    margin-top: 50px;
+    float: none;
+}
+
+#about img {
+    float: left;
+    padding-right: 100px;
+}
+
+#first {
+    font-size: 200px;
+    margin: 0;
+}
+
+#name {
+    font-size: 200px;
+    color: #F4D06F;
+    margin: 0;
+    font-weight: bold;
+}
+
+#about h4 {
+    color: #FF8811;
+    font-size: 64px;
+    margin: 0;
+}
+
+#aboutbalk {
+    background-color: #9DD9D2;
+    margin-top: 100px;
+    padding: 2%;
+    height: 350px;
+    border-radius: 5px;
+}
+
+#whyme, #whoami {
+    width: 48%;
+    float: left;
+}
+
+#whyme p, #whoami p {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 14pt;
+}
+
+#whyme h6, #whoami h6 {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #F4D06F;
+    font-size: 36px;
+    margin: 0;
+}
+
+#about h5 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#skills {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#skills p{
+    background-color: #FF8811;
+    padding: 10px;
+    margin: 1%;
+    border-radius: 10px;
+    list-style: none;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-right: 0;
+    text-align: center;
+    font-size: 20pt;
+    width: 15%;
+    height: 30px;
+}
+
+.sectionlinks {
+    float: left;
+    margin-right: 25%;
+}
+
+#interests img {
+    height: 600px;
+    width: auto;
+    border-radius: 5px;
+}
+
+#interests h2 {
+    color: #392F5A;
+    font-size: 128pt;
+    margin: 0;
+}
+
+#interests h3 {
+    color: #FF8811;
+    font-size: 96pt;
+    margin: 0;
+}
+
+#intrechts h3 {
+    margin: 5%;
+}
+
+#intlinks p {
+    width: 400px;
+    margin: 5%;
+    margin-top: 2%;
+    border-width: 5pt;
+    font-size: 15pt;
+}
+
+#intrechts p {
+    margin: 5%;
+    margin-top: 2%;
+    border-width: 5pt;
+    font-size: 15pt;
+}
+
+#interests {
+    padding-bottom: 5%;
+}
+
+
+#projects {
+    width: 80%;
+    margin-top: 0;
+    background-color: #9DD9D2;
+    height: 1080px;
+    margin-bottom: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+}
+
+#projects h3 {
+    font-size: 100pt;
+    color: #392F5A;
+    margin-bottom: 0;
+    margin-top: 4%;
+}
+
+
+.proj {
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+}
+
+.proj h4 {
+    color: #FF8811;
+    font-weight: bold;
+    font-size: 36pt;
+    margin: 0;
+}
+
+.proj p {
+    font-size: 20px;
+}
+
+#refltext {
+    background-color: #9DD9D2;
+    padding: 2%;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+
+#reflection h3 {
+    font-size: 128pt;
+    color: #FF8811;
+    margin-bottom: 0;
+    margin-top: 4%;
+}
+
+#reflection h4 {
+    font-size: 64pt;
+    color: #FF8811;
+    margin: 0;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#reflection h5 {
+    font-size: 40pt;
+    color: #F4D06F;
+    margin: 0;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+#reflection p {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#reflection button {
+    background-color: #F4D06F;
+    width: 150px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    color: #392F5A;
+    font-weight: bold;
+    font-size: 15pt;
+    float: right;
+}
+
+
+#school {
+    margin-top: 5%;
+}
+
+#school h2 {
+    font-size: 120pt;
+    color: #FF8811;
+    margin: 0;
+}
+
+#school h3 {
+    font-size: 74pt;
+    margin: 0;
+    margin-top: 4%;
+}
+
+#school img {
+    float: left;
+    margin-right: 5%;
+}
+
+
+#school h5 {
+    font-size: 74pt;
+    font-weight: lighter;
+    font-style: italic;
+    padding-left: 20%;
+    font-weight: initial;
+    margin: 0;
+}
+
+#thank {
+    font-size: 128pt;
+    margin: 0;
+    color: #FF8811;
+    margin-top: 5%;
+}
+
+#scroll {
+    font-size: 128pt;
+    margin: 0;
+    padding-left: 20%;
+    font-weight: initial;
+}
+
+#contact {
+    font-size: 64pt;
+    font-weight: initial;
+    margin: 0;
+}
+
+
+#thankend section {
+    padding-bottom: 0.5%;
+}
+
+a {
+    color: #392F5A;
+}
+
+a:visited {
+    color: #392F5A;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #FF8811;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 90%;
+}
+
+form {
+    background-color: #9DD9D2;
+    padding: 2%;
+    border-radius: 5px;
+    color: #392F5A;
+    font-size: 18pt;
+    margin-top: 1%;
+}
+
+footer {
+    background-color: #392F5A;
+    margin-bottom: 0;
+    margin-top: 2%;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+footer p {
+    margin-left: 5%;
+}
+
+footer section {
+    width: 100%;
+}
+
+footer p {
+    margin-bottom: 0;
+    color: #FFF8F0;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+footer img {
+    height: 30px;
+    width: auto;
+    float: left;
+    margin: 0;
+    margin-right: 30px;
+}
+
+input[type=submit]:hover {
+    opacity: 100%;
+}
+
+@media screen and (min-width: 2560px) {
+    body {
+        width: 100%;
+        margin: auto;
+        zoom: 125%;
+    }
+
+    #begin {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        width: 100%;
+        margin: auto;
+    }
+
+    html, body {
+        min-height: 100%;
+        min-width: 100%;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    #begin {
+        white-space: initial;
+        width: 100%;
+    }
+
+    #scrolling {
+    }
+
+    #name {
+        font-size: 80pt;
+    }
+
+    #aboutbalk {
+        height: 600px;
+    }
+
+    #welcome h1 {
+        font-size: 100pt;
+    }
+
+    #welcome h3 {
+        font-size: 60pt;
+    }
+
+
+    #interests img {
+        display: none;
+    }
+
+    #projects {
+        height: 1850px;
+    }
+
+
+    #skills p{
+        font-size: 14pt;
+    }
+
+    #about img {
+        display: none;
+    }
+
+    #welcome h2 {
+        font-size: 90pt;
+    }
+
+    #welcome {
+        height: 600px;
+    }
+
+    #about h1 {
+        font-size: 90pt;
+    }
+
+
+    #thank {
+        font-size: 60pt;
+    }
+
+    #scroll {
+        font-size: 60pt;
+
+    }
+
+    #contact {
+        font-size: 40pt;
+
+    }
+
+    #school h3 {
+        font-size: 60pt;
+    }
+
+    #school h5 {
+        font-size: 50pt;
+    }
+
+    #school {
+        margin-bottom: 3%;
+    }
+
+    #school h2 {
+        font-size: 90pt;
+    }
+
+    #welcome h2 {
+        font-size: 60pt;
+        float: none;
+    }
+
+    #welcome h3 {
+        font-size: 50pt;
+    }
+
+    #welcome {
+        height: 500px;
+    }
+
+    #interests h2 {
+        font-size: 90pt;
+    }
+
+    #projects h3 {
+        font-size: 80pt;
+    }
+
+    #projects {
+        height: 1500px;
+        padding: 0;
+        padding-left: 2%;
+        width: 100%;
+    }
+
+    #reflection h3 {
+        font-size: 90pt;
+    }
+
+    #scrolling {
+        font-size: 150pt;
+    }
+
+    #intlinks {
+        width: 100%;
+        margin: 0;
+    }
+    #intlinks p {
+        width: 100%;
+    }
+
+    #refltext {
+        margin-top: 7%;
+    }
+
+    #aboutbalk {
+        margin-top: 1%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #about img {
+        display: none;
+    }
+
+    #projects {
+        height: 2000px;
+        padding: 0;
+        padding-left: 2%;
+        width: 100%;
+    }
+
+    .proj {
+        width: 90%;
+        float: none;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #projects p {
+        font-size: 20pt;
+        width: 100%;
+        float: none;
+     }
+
+    #welcome {
+        height: 600px;
+    }
+
+    #main {
+        padding: 1%;
+    }
+
+    #refltext {
+        width: 100%;
+        margin: 0;
+    }
+
+    #refltext p{
+        font-size: 18pt;
+    }
+
+    #interests p {
+        font-size: 36px;
+        text-align: center;
+        margin: 5%;
+        width: 100%;
+    }
+
+
+    #aboutbalk {
+        height: 800px;
+    }
+
+    #whyme, #whoami {
+        float: none;
+        width: 100%;
+    }
+
+    #whyme p, #whoami p {
+        font-size: 18pt;
+    }
+
+    #interests section {
+        width: 100%;
+    }
+
+    #reflection {
+        width: 100%;
+        margin: 0;
+    }
+
+    #welcome h2 {
+        font-size : 90pt;
+    }
+}
